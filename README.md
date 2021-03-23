@@ -79,3 +79,4 @@
    - A simple way to do this would be to check if the robot is upright or upside down based on the tag's pose estimate. (Not been implemented, just a suggestion)
    - Another way to rectify this would be to add multiple tags on the same sheet of paper (tag bundles). Here PNP would use all the tags in the sheet of paper to estimate the pose. This reduces the number of axis flippings.
    - For now, during optimization if the error is above some threshold say (2 meters) then that data point is rejected.
+5. Please use ````rqt_multiplot```` to plot the trajectories. You just need to add the name of the topic and you can plot the data.
